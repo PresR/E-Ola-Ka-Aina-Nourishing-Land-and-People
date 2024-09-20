@@ -1,0 +1,123 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header styling with background image */
+header {
+  background: url('getty_d1fed42d97784430ab832384076cf198.jpg') no-repeat center center/cover;
+  height: 400px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Styling for header content */
+.header-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Header title with Playfair Display font */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+
+/* Paragraphs with Open Sans font */
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Mission section styling */
+.mission {
+  padding: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Mission title styling */
+.mission h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Mission paragraph styling */
+.mission p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+}
+/* Sidebar styling */
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 20px;
+  transition: 0.3s;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+}
+
+/* Dropdown container inside sidebar */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+.dropdown-container a {
+  font-size: 16px;
+}
+
+.dropdown-btn {
+  padding: 10px 15px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+  outline: none;
+  transition: 0.3s;
+}
+
+.dropdown-btn:hover {
+  background-color: #575757;
+}
+
+/* Main content */
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+/* Collapsible Dropdown (optional) */
+.sidebar .fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
